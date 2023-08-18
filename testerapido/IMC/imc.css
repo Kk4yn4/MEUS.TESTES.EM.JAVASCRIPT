@@ -19,7 +19,7 @@ section{
    background-color: rgba(112, 22, 22, 0.842);
    width: 500px;
    height: 480px;
-   margin: auto;
+   margin-left: 200 px;
    margin-top: 50px;
 }
 p{
@@ -39,4 +39,24 @@ input#calc{
     width: 70px;
     height: 25px;
     margin-left: -130px;
+}
+div#res{
+   position: absolute;
+   background-color: rgba(112, 22, 22, 0.842);
+   width: 500px;
+   height: 480px;
+   margin-left:600px;
+   margin-top: -480px;
+   color: white;
+   text-align: center;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: underline;
+}
+div#ress{
+    color: white;
+   text-align: center;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: underline;
 }
