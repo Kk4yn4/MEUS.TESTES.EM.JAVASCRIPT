@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+header{
+    background-color: rgba(37, 55, 219, 0.733);
+    padding:1%;
+    margin-top: -20px;
+    margin-left: -15px;
+    margin-right: -8px
+}
+header h1{
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(217, 222, 226);
+    font-size: 35px;
+    text-shadow: rgb(184, 239, 253) 30px 30px;
+    
+    
+}
