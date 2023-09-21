@@ -13,17 +13,29 @@
 </head>
 <body>
     <header>
-        <h1>Minhas economias online:</h1>
+        <h1>Minhas economias online $:</h1>
 
         <nav>
-            <tr><td>Maneiras de economizar dinheiro</td></tr>
+        <ul><li id="mded"><a href="">Maneiras de economizar dinheiro</a></li></ul>
             
-            <tr><td>Metodos de investimentos</td></tr>
+            <ul><li id="mdi"><a href="">Metodos de investimentos</a></li></ul>
         </nav>
     </header>
     
     <section>
-        <input type="text" placeholder="Nome da Do gasto">
+        <h1>Area de calculo de gastos</h1>
+        
+        <ul id="ul">
+            <p>Gastos</p><li><input type="text" placeholder="Nome do gasto" id="gastoname"></li>
+            <p>Valor</p><li><input type="number" placeholder="Valor gasto" id="valorgasto"></li>
+            <h2>Houve parcelas?</h2>
+            <li>Sim<input type="checkbox" id="sim"></li>
+            <li>Não<input type="checkbox" id="não"></li>
+            <li>Quantas vezes parcelou? <input type="number" id="QuantasVezes" ></li>
+           <input type="button" value="Calcular gastos" onclick="calc()">
+        </ul>
+        <div id="res"></div>
     </section>
+    <script src="gastos.js"></script>
 </body>
 </html>

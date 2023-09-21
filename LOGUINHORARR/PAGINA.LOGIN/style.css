@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(17, 102, 102);
+    
+}
+div{
+    /*DEFINIR ESTILO DO FUNDO*/
+    background-color: rgb(17, 102, 102);
+    height: 500px;
+    width: 450px;
+    margin: 0% auto;
+}
+p{
+    /*DEFINIR ESTILO DOS PARAGRAFOS DO TEXTO (NOME/SENHA)*/
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+    
+}
+section{
+    /*DEFINIR ALTURA E LARGURA DAS CAIXAS DE TEXTOS (NOME/SENHA)*/
+     margin-left: 80px;
+     position: absolute;
+     margin-top: 220px; 
+}
+input{
+ /*DEFINIR ESTILO E LAARGURA DA CAIXA DE TEXTO (NOME/SENHA)*/
+ border-radius: 50px;
+ width: 180px;
+}
+figure{
+    /*POSIÇÃO DA LOGO (SORRISO BONITO)*/
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 18px ;
+}
+input#botao{
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 169px;
+}
