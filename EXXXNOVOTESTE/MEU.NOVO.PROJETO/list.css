@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(156, 155, 155, 0.336);
+}
+header{
+    background-color: rgb(41, 50, 134);
+    padding:1%;
+    margin-top: -20px;
+    margin-left: -15px;
+    margin-right: -8px
+}
+header h1{
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(135, 218, 232);
+    font-size: 35px;
+    text-shadow: rgb(94, 113, 78) 30px 30px;
+    
+    
+}
+li{
+    list-style-type: none;
+}
+ li#mded a{
+    position: absolute;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    margin-left: 900px;
+    color:rgb(217, 222, 226);
+    
+    text-decoration: none;
+    margin-top: -8px;
+   
+}
+li#mdi a{
+    
+    position: absolute;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    margin-left: 1250px;
+    color:rgb(217, 222, 226) ;
+    
+    text-decoration: none;
+    margin-top: -8px;
+}
+li#mdi a:hover{
+    color:rgba(217, 222, 226, 0.459) ;
+}
+li#mded a:hover{
+    color: rgba(217, 222, 226, 0.459) ;
+}

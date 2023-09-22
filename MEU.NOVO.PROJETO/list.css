@@ -3,33 +3,40 @@
 body{
     background-color: rgba(156, 155, 155, 0.336);
 }
+/*Parte que define a cor do header*/
 header{
     background-color: rgb(41, 50, 134);
     padding:1%;
+    height: 38px;
     margin-top: -20px;
     margin-left: -15px;
     margin-right: -8px
 }
+/*Parte que define o estilo do titulo*/
 header h1{
     font-family: 'Bebas Neue', sans-serif;
     color: rgb(135, 218, 232);
     font-size: 35px;
+    margin-top: -10px;
     text-shadow: rgb(94, 113, 78) 30px 30px;
     
     
 }
+   /*OS 5 QUADDROS DE EDIÇÃO A BAIXO SÃO PARA DAR ESTILO AO MENU DE NAVEGAÇÃO*/
 li{
-    list-style-type: none;
+    list-style-type: none; /*N1 NAV */
 }
  li#mded a{
     position: absolute;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 25px;
-    margin-left: 900px;
-    color:rgb(217, 222, 226);
-    
+    margin-left: 1300px;            /*N2 NAV*/
+    color:rgb(135, 218, 232);
     text-decoration: none;
-    margin-top: -8px;
+    margin-top: -1px;
+    background-color: rgb(94, 113, 78);
+   padding: 05px;
+
    
 }
 li#mdi a{
@@ -37,15 +44,71 @@ li#mdi a{
     position: absolute;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 25px;
-    margin-left: 1250px;
-    color:rgb(217, 222, 226) ;
-    
+    margin-left: 1600px;        /*N3NAV*/
+    color:rgb(135, 218, 232) ;
     text-decoration: none;
-    margin-top: -8px;
+    margin-top: -1px;
+    background-color: rgb(94, 113, 78);
+    padding: 5px;
+    
 }
 li#mdi a:hover{
-    color:rgba(217, 222, 226, 0.459) ;
+    color:rgb(94, 113, 78);
+    background-color:rgb(135, 218, 232); /*N4 NAV*/
 }
 li#mded a:hover{
-    color: rgba(217, 222, 226, 0.459) ;
+    color:rgb(94, 113, 78);  /*N5 NAV*/
+    background-color:rgb(135, 218, 232);
+}
+
+section#SecaoCalculo{
+    margin-top: 25px;
+    border: solid rgb(41, 50, 134) 5px;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    border-radius: 30px;
+    height: 500px;
+}
+
+h2#TiltAreaCalc{
+    font-size: 35px;
+    text-align: center;
+    color: rgb(132, 202, 74);
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+div#linha1{
+    margin-top: -20px;
+    margin-left: 50px;
+    height: 5px;
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.411);
+    border-radius: 5px;
+}
+p#Pgastos{
+    font-size: 28px;
+    margin-left: -3px;
+    color: rgb(132, 202, 74);
+    font-family: 'Bebas Neue', sans-serif;
+}
+input#gastoname{
+    margin-left: 73px;
+    margin-top: -58px;
+    position: absolute;
+    background-color: rgba(212, 212, 212, 0.527);
+    width: 240px;
+}
+p#Pvalor{
+    font-size: 28px;
+    margin-left: -3px;
+    color: rgb(132, 202, 74);
+    font-family: 'Bebas Neue', sans-serif;
+}
+input#valorgasto{
+    margin-left: 73px;
+    margin-top: -58px;
+    position: absolute;
+    background-color: rgba(212, 212, 212, 0.527);
+    width: 100px;
+    
 }

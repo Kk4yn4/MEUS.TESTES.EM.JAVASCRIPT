@@ -15,25 +15,24 @@
     <header>
         <h1>Minhas economias online $:</h1>
 
-        <nav id="navegacao">
-        <ul ><li id="mded"><a href="">Maneiras de economizar dinheiro</a></li></ul>
+        <nav>
+        <ul><li id="mded"><a href="">Maneiras de economizar dinheiro</a></li></ul>
             
             <ul><li id="mdi"><a href="">Metodos de investimentos</a></li></ul>
         </nav>
     </header>
     
-    <section id="SecaoCalculo">
-        <h2 id="TiltAreaCalc">Area de calculo de gastos</h2>
-        <div id="linha1"></div>
+    <section>
+        <h1>Area de calculo de gastos</h1>
+        
         <ul id="ul">
-            <p id="Pgastos">Gastos:</><li><input type="text" placeholder="Nome do gasto" id="gastoname"></li>
-            <p id="Pvalor">Valor:</p><li><input type="number" placeholder="Valor gasto" id="valorgasto" ></li>
+            <p>Gastos</p><li><input type="text" placeholder="Nome do gasto" id="gastoname"></li>
+            <p>Valor</p><li><input type="number" placeholder="Valor gasto" id="valorgasto"></li>
             <h2>Houve parcelas?</h2>
             <li>Sim<input type="checkbox" id="sim"></li>
             <li>Não<input type="checkbox" id="não"></li>
-            <li>Quantas vezes parcelou? <input type="number" id="QuantasVezes" min="1" max="30" ></li>
-           <input type="button" value="Adicionar gastos" onclick="calc()">
-           
+            <li>Quantas vezes parcelou? <input type="number" id="QuantasVezes" ></li>
+           <input type="button" value="Calcular gastos" onclick="calc()">
         </ul>
         <div id="res"></div>
     </section>
