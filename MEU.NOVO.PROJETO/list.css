@@ -7,7 +7,7 @@ body{
 header{
     background-color: rgb(41, 50, 134);
     padding:1%;
-    height: 38px;
+    height: 20px;
     margin-top: -20px;
     margin-left: -15px;
     margin-right: -8px
@@ -16,11 +16,41 @@ header{
 header h1{
     font-family: 'Bebas Neue', sans-serif;
     color: rgb(135, 218, 232);
-    font-size: 35px;
-    margin-top: -10px;
-    text-shadow: rgb(94, 113, 78) 30px 30px;
+    font-size: 25px;
+    margin-top: -3px;
+  
     
-    
+}
+nav#MenuNav{
+    margin: 0 auto;
+    height: 20px;
+    width: 750px;
+    background-color: rgb(39, 116, 116);
+
+}
+#aa1{
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}
+#aa2{
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 280px;
+}
+#aa3{
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 620px;
 }
    /*OS 5 QUADDROS DE EDIÇÃO A BAIXO SÃO PARA DAR ESTILO AO MENU DE NAVEGAÇÃO*/
 li{
@@ -28,52 +58,39 @@ li{
 }
  li#mded a{
     position: absolute;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 25px;
-    margin-left: 1300px;            /*N2 NAV*/
-    color:rgb(135, 218, 232);
+    margin-left: 1810px;
+    margin-top: -48px;
+    color: aliceblue;
     text-decoration: none;
-    margin-top: -1px;
-    background-color: rgb(94, 113, 78);
-   padding: 05px;
-
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
    
 }
-li#mdi a{
-    
+li#mdi a{   
     position: absolute;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 25px;
-    margin-left: 1600px;        /*N3NAV*/
-    color:rgb(135, 218, 232) ;
+    margin-left: 1735px;
+    margin-top: -48px;
+    color: aliceblue;
     text-decoration: none;
-    margin-top: -1px;
-    background-color: rgb(94, 113, 78);
-    padding: 5px;
-    
-}
-li#mdi a:hover{
-    color:rgb(94, 113, 78);
-    background-color:rgb(135, 218, 232); /*N4 NAV*/
-}
-li#mded a:hover{
-    color:rgb(94, 113, 78);  /*N5 NAV*/
-    background-color:rgb(135, 218, 232);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
 }
 
+
 section#SecaoCalculo{
-    margin-top: 25px;
+    margin-top: 80px;
     border: solid rgb(41, 50, 134) 5px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(210, 246, 247, 0.596);
     width: 400px;
     border-radius: 30px;
-    height: 500px;
+    height: 550px;
+    margin-left: 700px;
 }
 
 h2#TiltAreaCalc{
     font-size: 35px;
     text-align: center;
-    color: rgb(132, 202, 74);
+    color:  rgb(255, 0, 0);
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -82,13 +99,13 @@ div#linha1{
     margin-left: 50px;
     height: 5px;
     width: 300px;
-    background-color: rgba(128, 128, 128, 0.411);
+    background-color: rgba(25, 18, 117, 0.699);
     border-radius: 5px;
 }
 p#Pgastos{
     font-size: 28px;
     margin-left: -3px;
-    color: rgb(132, 202, 74);
+    color: rgb(35, 124, 139);
     font-family: 'Bebas Neue', sans-serif;
 }
 input#gastoname{
@@ -96,12 +113,15 @@ input#gastoname{
     margin-top: -58px;
     position: absolute;
     background-color: rgba(212, 212, 212, 0.527);
-    width: 240px;
+    width: 230px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 15px;
 }
 p#Pvalor{
     font-size: 28px;
     margin-left: -3px;
-    color: rgb(132, 202, 74);
+    color: rgb(35, 124, 139);
     font-family: 'Bebas Neue', sans-serif;
 }
 input#valorgasto{
@@ -110,5 +130,74 @@ input#valorgasto{
     position: absolute;
     background-color: rgba(212, 212, 212, 0.527);
     width: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 15px;
     
+}
+div#linha2{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 5px;
+    width: 300px;
+    background-color: rgba(25, 18, 117, 0.699);
+    border-radius: 5px;
+}
+h3#TiltHouveParc{
+    font-size: 28px;
+    text-align: justify;
+    color: rgb(35, 124, 139);
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+li#vezes{
+    position: absolute;
+    margin-top: 30px;
+    
+}
+
+#res{
+    margin-top: 150px;
+}
+li#vezes{
+    position: absolute;
+    margin-top: -10px;
+    font-size: 22px;
+    color: rgb(35, 124, 139);
+    font-family: 'Bebas Neue', sans-serif;
+}
+#QuantasVezes{
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    margin-top: -5px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(255, 0, 0);
+    background-color: rgba(212, 212, 212, 0.527)
+}
+
+div#linha3{
+    margin-top: 110px;
+    margin-left: 10px;
+    height: 5px;
+    width: 300px;
+    background-color: rgba(25, 18, 117, 0.699);
+    border-radius: 5px;
+} 
+
+input#botao{
+    position: absolute;
+    margin-top: 50px 
+}
+#botao{
+    background-color: rgb(35, 124, 139);
+    color: rgba(25, 18, 117, 0.699);
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif; 
+}
+#botao:hover{
+    background-color: rgba(96, 164, 209, 0.808);
+    color: rgb(199, 199, 199);
 }

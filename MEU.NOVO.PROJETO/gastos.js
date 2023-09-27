@@ -4,17 +4,17 @@ function calc() {
    const gastonome = document.getElementById('gastoname').value;
    const valorgasto = document.getElementById('valorgasto').value;
    const res = document.getElementById('res');
-
+   const parcelas = document.getElementById('QuantasVezes')
    if (gastonome.includes('@') || gastonome.includes('$') || gastonome.includes('#') || gastonome == "") {
-      alert(22);
+      res.innerHTML = `/ERROR/ área em branco ou (O texto não pode incluir [@ , $, #]))`
       return;
    }
 
    if (valorgasto.includes('@') || valorgasto.includes('$') || valorgasto.includes('#') || valorgasto == "" || valorgasto <= 0) {
-      alert(11);
+        res.innerHTML =` /ERROR/ Tem algo faltando(Só pode incluir números maiores que 0)`
       return;
    }
-
+    
    // Adiciona o produto ao array guardagasto
    guardagasto.push({
       NomeDoGasto: gastonome,
@@ -29,6 +29,8 @@ function calc() {
    document.getElementById('gastoname').value = '';
    document.getElementById('valorgasto').value = '';
 }
+
+
 
 function listarProdutos(produtos) {
    const listaProdutos = document.getElementById('res');
