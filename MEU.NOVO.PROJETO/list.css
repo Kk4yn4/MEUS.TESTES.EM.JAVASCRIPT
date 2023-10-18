@@ -50,7 +50,7 @@ nav#MenuNav{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 20px;
     color: white;
-    margin-left: 620px;
+    margin-left: 600px;
 }
    /*OS 5 QUADDROS DE EDIÇÃO A BAIXO SÃO PARA DAR ESTILO AO MENU DE NAVEGAÇÃO*/
 li{
@@ -58,7 +58,7 @@ li{
 }
  li#mded a{
     position: absolute;
-    margin-left: 1810px;
+    margin-left: 1790px;
     margin-top: -48px;
     color: aliceblue;
     text-decoration: none;
@@ -68,7 +68,7 @@ li{
 }
 li#mdi a{   
     position: absolute;
-    margin-left: 1735px;
+    margin-left: 1700px;
     margin-top: -48px;
     color: aliceblue;
     text-decoration: none;
@@ -83,7 +83,7 @@ section#SecaoCalculo{
     background-color: rgba(210, 246, 247, 0.596);
     width: 400px;
     border-radius: 30px;
-    height: 550px;
+    height: 400px;
     margin-left: 700px;
 }
 
@@ -109,11 +109,11 @@ p#Pgastos{
     font-family: 'Bebas Neue', sans-serif;
 }
 input#gastoname{
-    margin-left: 73px;
-    margin-top: -58px;
+    margin-left: 100px;
+    margin-top: -55px;
     position: absolute;
     background-color: rgba(212, 212, 212, 0.527);
-    width: 230px;
+    width: 200px;
     font-family: 'Bebas Neue', sans-serif;
     color: rgb(255, 0, 0);
     font-size: 15px;
@@ -126,7 +126,7 @@ p#Pvalor{
 }
 input#valorgasto{
     margin-left: 73px;
-    margin-top: -58px;
+    margin-top: -55px;
     position: absolute;
     background-color: rgba(212, 212, 212, 0.527);
     width: 100px;
@@ -143,49 +143,6 @@ div#linha2{
     background-color: rgba(25, 18, 117, 0.699);
     border-radius: 5px;
 }
-h3#TiltHouveParc{
-    font-size: 28px;
-    text-align: justify;
-    color: rgb(35, 124, 139);
-    font-family: 'Bebas Neue', sans-serif;
-}
-
-li#vezes{
-    position: absolute;
-    margin-top: 30px;
-    
-}
-
-#res{
-    margin-top: 150px;
-}
-li#vezes{
-    position: absolute;
-    margin-top: -10px;
-    font-size: 22px;
-    color: rgb(35, 124, 139);
-    font-family: 'Bebas Neue', sans-serif;
-}
-#QuantasVezes{
-    position: absolute;
-    width: 50px;
-    height: 25px;
-    margin-top: -5px;
-    margin-left: 10px;
-    font-size: 25px;
-    font-family: 'Bebas Neue', sans-serif;
-    color: rgb(255, 0, 0);
-    background-color: rgba(212, 212, 212, 0.527)
-}
-
-div#linha3{
-    margin-top: 110px;
-    margin-left: 10px;
-    height: 5px;
-    width: 300px;
-    background-color: rgba(25, 18, 117, 0.699);
-    border-radius: 5px;
-} 
 
 input#botao{
     position: absolute;
@@ -200,4 +157,18 @@ input#botao{
 #botao:hover{
     background-color: rgba(96, 164, 209, 0.808);
     color: rgb(199, 199, 199);
+}
+
+div#res{
+    position: absolute;
+    margin-left: 410px;
+    margin-top: -50px;
+    height:150px;
+    width: 250px;
+    border: solid rgb(41, 50, 134) 5px;
+    background-color: rgba(210, 246, 247, 0.596);
+    border-radius: 10px;
+    font-size: 18px;
+    font-family:'Bebas Neue', sans-serif ;
+    color: rgb(255, 0, 0);
 }

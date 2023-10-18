@@ -4,7 +4,6 @@ function calc() {
    const gastonome = document.getElementById('gastoname').value;
    const valorgasto = document.getElementById('valorgasto').value;
    const res = document.getElementById('res');
-   const parcelas = document.getElementById('QuantasVezes')
    if (gastonome.includes('@') || gastonome.includes('$') || gastonome.includes('#') || gastonome == "") {
       res.innerHTML = `/ERROR/ área em branco ou (O texto não pode incluir [@ , $, #]))`
       return;
@@ -28,7 +27,7 @@ function calc() {
    // Limpa os campos de entrada
    document.getElementById('gastoname').value = '';
    document.getElementById('valorgasto').value = '';
-}
+
 
 
 
@@ -41,4 +40,5 @@ function listarProdutos(produtos) {
       itemProduto.innerHTML = `Produto: <strong>${produto.NomeDoGasto}</strong>, Valor: <strong>${produto.ValorDoGasto}</strong>`;
       listaProdutos.appendChild(itemProduto);
    }
+}
 }
